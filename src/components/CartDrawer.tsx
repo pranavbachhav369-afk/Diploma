@@ -129,11 +129,11 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ onCheckout, onOpenAuth }
                       </h5>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="text-sm font-bold text-amber-300">₹{item.price}</span>
-                        {item.original_price > item.price && (
+                        {item.original_price && item.original_price > item.price ? (
                           <span className="text-xs text-slate-500 line-through">
                             ₹{item.original_price}
                           </span>
-                        )}
+                        ) : null}
                       </div>
                     </div>
 

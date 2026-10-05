@@ -148,6 +148,7 @@ export interface CartItem {
   subject_code?: string;
   subject_name?: string;
   material_type?: string;
+  category_id?: string;
   price: number;
   discount_price?: number;
   original_price?: number;

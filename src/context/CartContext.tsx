@@ -67,6 +67,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     const price = material.discount_price !== undefined ? material.discount_price : material.price;
     const newItem: CartItem = {
+      id: material.id,
       material_id: material.id,
       title: material.title,
       subject_code: material.subject_code,

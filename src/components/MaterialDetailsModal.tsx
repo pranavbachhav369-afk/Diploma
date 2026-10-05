@@ -78,7 +78,7 @@ export const MaterialDetailsModal: React.FC<MaterialDetailsModalProps> = ({
 
     setIsSubmittingReview(true);
     try {
-      const added = await api.addReview(materialId, newRating, newComment.trim());
+      const added = await api.addReview({ course_id: materialId, rating: newRating, comment: newComment.trim() });
       setReviews(prev => [added, ...prev]);
       setNewComment('');
     } catch (err: any) {

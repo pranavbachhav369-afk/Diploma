@@ -1,0 +1,6 @@
+{
+  "name": "Diploma Rankers - MSBTE Study Material",
+  "description": "Premier MSBTE diploma study material platform. Browse and access verified notes, model answers, previous year papers, and complete subject bundles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,763 @@
+{
+  "users": [
+    {
+      "id": "usr_student1",
+      "name": "Rohan Deshmukh",
+      "email": "student@diplomarankers.com",
+      "mobile": "+919876543210",
+      "password_hash": "$2b$10$F51I6TuefGMP.tZbre5HtOFzqL2YCdi3JcnmREa/X8fOVAtgEyWc.",
+      "branch": "Computer Engineering",
+      "year": "3rd Year",
+      "semester": "5th Semester",
+      "is_active": true,
+      "created_at": "2026-09-14T08:37:04.632Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "adm_1",
+      "name": "MSBTE Lead Administrator",
+      "email": "admin@diplomarankers.com",
+      "password_hash": "$2b$10$F51I6TuefGMP.tZbre5HtOfDZPwL9BvHbXSsmOg0a.u4fFb6kW.DS",
+      "role": "superadmin",
+      "created_at": "2026-08-05T08:37:04.632Z"
+    }
+  ],
+  "branches": [
+    {
+      "id": "b_co",
+      "code": "CO",
+      "name": "Computer Engineering",
+      "icon": "Laptop",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "b_ce",
+      "code": "CE",
+      "name": "Civil Engineering",
+      "icon": "HardHat",
+      "is_active": true,
+      "order": 2
+    },
+    {
+      "id": "b_me",
+      "code": "ME",
+      "name": "Mechanical Engineering",
+      "icon": "Cog",
+      "is_active": true,
+      "order": 3
+    },
+    {
+      "id": "b_ee",
+      "code": "EE",
+      "name": "Electrical Engineering",
+      "icon": "Zap",
+      "is_active": true,
+      "order": 4
+    },
+    {
+      "id": "b_ej",
+      "code": "EJ",
+      "name": "Electronics & Telecommunication",
+      "icon": "Radio",
+      "is_active": true,
+      "order": 5
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_ste",
+      "name": "Software Engineering",
+      "code": "22517",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Software processes, Agile, UML modeling, testing & maintenance",
+      "is_active": true
+    },
+    {
+      "id": "sub_ajp",
+      "name": "Advanced Java Programming",
+      "code": "22516",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "AWT, Swing, Event Handling, JDBC, Servlets, JSP & Networking",
+      "is_active": true
+    },
+    {
+      "id": "sub_cn",
+      "name": "Computer Network",
+      "code": "22515",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "OSI, TCP/IP, IP addressing, routing protocols, network security",
+      "is_active": true
+    },
+    {
+      "id": "sub_os",
+      "name": "Operating System",
+      "code": "22516",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Process management, CPU scheduling, deadlocks, memory management",
+      "is_active": true
+    },
+    {
+      "id": "sub_dm",
+      "name": "Data Mining",
+      "code": "22521",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Data warehousing, association rules, classification & clustering",
+      "is_active": true
+    },
+    {
+      "id": "sub_css",
+      "name": "Client Side Scripting",
+      "code": "22519",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "JavaScript, DOM, Form validation, ES6 and AJAX",
+      "is_active": true
+    },
+    {
+      "id": "sub_dsa",
+      "name": "Data Structures using C",
+      "code": "22317",
+      "branch_id": "b_co",
+      "year": "2nd Year",
+      "semester": 3,
+      "description": "Stacks, Queues, Linked Lists, Trees and Graphs",
+      "is_active": true
+    },
+    {
+      "id": "sub_tos",
+      "name": "Theory of Structures",
+      "code": "22401",
+      "branch_id": "b_ce",
+      "year": "2nd Year",
+      "semester": 4,
+      "description": "Determinate and indeterminate structures, slope deflection",
+      "is_active": true
+    },
+    {
+      "id": "sub_wre",
+      "name": "Water Resources Engineering",
+      "code": "22501",
+      "branch_id": "b_ce",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Hydrology, irrigation, dams, canals and water management",
+      "is_active": true
+    },
+    {
+      "id": "sub_tom",
+      "name": "Theory of Machines",
+      "code": "22438",
+      "branch_id": "b_me",
+      "year": "2nd Year",
+      "semester": 4,
+      "description": "Kinematics, mechanisms, cams, gears and balancing",
+      "is_active": true
+    },
+    {
+      "id": "sub_amp",
+      "name": "Advanced Manufacturing Processes",
+      "code": "22563",
+      "branch_id": "b_me",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Non-traditional machining, CNC, EDM, ECM and lasers",
+      "is_active": true
+    },
+    {
+      "id": "sub_eim",
+      "name": "Electrical Instruments & Measurements",
+      "code": "22325",
+      "branch_id": "b_ee",
+      "year": "2nd Year",
+      "semester": 3,
+      "description": "Galvanometers, energy meters, bridges and sensors",
+      "is_active": true
+    },
+    {
+      "id": "sub_ps2",
+      "name": "Power System Operation & Control",
+      "code": "22524",
+      "branch_id": "b_ee",
+      "year": "3rd Year",
+      "semester": 5,
+      "description": "Transmission lines, substation layouts and fault analysis",
+      "is_active": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_notes",
+      "name": "Handwritten & Unit Notes",
+      "slug": "notes",
+      "description": "Topper handwritten notes with neat diagrams and unit summaries",
+      "icon": "BookOpen"
+    },
+    {
+      "id": "cat_pyq",
+      "name": "Previous Year Question Papers",
+      "slug": "question-papers",
+      "description": "Last 5-8 years MSBTE Board question papers with marking schemes",
+      "icon": "FileQuestion"
+    },
+    {
+      "id": "cat_model",
+      "name": "Model Answers",
+      "slug": "model-answers",
+      "description": "Official MSBTE format model answers with step-by-step solutions",
+      "icon": "CheckCircle2"
+    },
+    {
+      "id": "cat_imp",
+      "name": "V.I.P Important Questions",
+      "slug": "important-questions",
+      "description": "High probability predicted questions for upcoming board exam",
+      "icon": "Target"
+    },
+    {
+      "id": "cat_prac",
+      "name": "Practical & Lab Manuals",
+      "slug": "practical-material",
+      "description": "Solved lab manual experiments, codes and viva questions",
+      "icon": "FlaskConical"
+    },
+    {
+      "id": "cat_bundle",
+      "name": "Complete Subject Bundles",
+      "slug": "bundles",
+      "description": "All-in-one semester packs: notes + PYQs + model answers at huge discount",
+      "icon": "Package"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat_ste_notes",
+      "title": "Software Engineering (STE - 22517) Complete Notes",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "subject_id": "sub_ste",
+      "subject_code": "22517",
+      "subject_name": "Software Engineering",
+      "category_id": "cat_notes",
+      "description": "Comprehensive, topper-written unit-wise notes covering all 5 MSBTE syllabus units. Includes neat UML diagrams, Agile vs Waterfall tables, and quality assurance principles.",
+      "price": 20,
+      "discount_price": 20,
+      "total_pages": 58,
+      "file_size": "4.8 MB",
+      "is_featured": true,
+      "is_active": true,
+      "rating": 4.9,
+      "reviews_count": 84,
+      "download_count": 1420,
+      "preview_pages_count": 2,
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "Unit 1: Introduction to Software Engineering & Process Models",
+          "subtitle": "MSBTE Course Code: 22517 (I-Scheme Syllabus)",
+          "content": "### 1.1 Definition & Importance of Software Engineering\nSoftware engineering is the systematic, disciplined, and quantifiable approach to the development, operation, and maintenance of software.\n\n#### Key Characteristics of Software:\n1. **Engineered, not manufactured:** Unlike physical goods, software does not wear out; it deteriorates due to frequent changes.\n2. **Custom-built:** Most software is built to order rather than assembled from pre-existing components.\n3. **Complexity:** Software systems often manage thousands of interdependent business logic flows.\n\n### 1.2 Classical Waterfall Model (MSBTE 4M & 6M Favorite Question)\nThe linear sequential life cycle model consists of consecutive, non-overlapping phases:\n- **Requirement Analysis & Specification (SRS)**\n- **System & Software Design**\n- **Implementation & Coding (Unit Testing)**\n- **Integration & System Testing**\n- **Deployment & Maintenance**\n\n*Advantage:* Simple to understand and implement. Ideal for small projects with frozen requirements.\n*Disadvantage:* High risk when requirements change mid-project. Working model seen only late.",
+          "highlights": [
+            "Waterfall vs Spiral Model comparison is asked in almost every winter exam.",
+            "Always draw the 5-box waterfall lifecycle flow chart for full marks."
+          ],
+          "formulas": [
+            "Effort = a * (KLOC)^b [COCOMO Basic Formula]"
+          ],
+          "is_preview": true
+        },
+        {
+          "page_number": 2,
+          "title": "Unit 1: Agile Methodology, Scrum & Spiral Model",
+          "subtitle": "Agile Manifesto & Sprint Cycle Mechanics",
+          "content": "### 1.3 The Spiral Model (Risk-Driven Approach)\nProposed by Barry Boehm, the Spiral Model combines the iterative nature of prototyping with the controlled aspects of the Waterfall model.\n\n#### The 4 Quadrants:\n1. **Quadrant I (Objective Setting):** Identify objectives, alternatives, and constraints.\n2. **Quadrant II (Risk Assessment & Reduction):** Analyze risks, build prototypes, and perform risk mitigation.\n3. **Quadrant III (Development & Validation):** Develop software product, review, and test.\n4. **Quadrant IV (Review & Planning):** Customer evaluation and planning for next spiral iteration.\n\n### 1.4 Agile Framework & Scrum\n- **Sprint:** Fixed time-box of 2 to 4 weeks producing a shippable increment.\n- **Product Backlog:** Prioritized list of functional features.\n- **Sprint Retrospective:** Team inspects its process and agrees on improvements.",
+          "highlights": [
+            "Differentiate between Waterfall & Agile (MSBTE Summer 2023, 6 marks).",
+            "Definition of Product Owner vs Scrum Master."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 3,
+          "title": "Unit 2: Software Requirements Engineering & SRS Format",
+          "subtitle": "IEEE 830 Standard for Software Requirements Specification",
+          "content": "### 2.1 Software Requirement Specification (SRS)\nAn SRS document is a formal contract between the client and developers describing what the software will do without specifying how it will be built.\n\n#### Key Sections of IEEE 830 Standard SRS:\n1. **Introduction:** Purpose, Scope, Definitions, References, Overview.\n2. **Overall Description:** Product perspective, Product functions, User characteristics, Constraints, Assumptions.\n3. **Specific Requirements:** External interfaces (User, Hardware, Software), Functional requirements, Non-functional requirements (Performance, Security, Reliability).\n\n### 2.2 Functional vs Non-Functional Requirements\n- **Functional Requirements:** Specific behaviors or functions (e.g., \"System shall authenticate student via OTP within 5 seconds\").\n- **Non-Functional Requirements:** Quality attributes like scalability, uptime 99.9%, security encryption (AES-256), and mobile responsiveness.",
+          "highlights": [
+            "Characteristics of a good SRS: Unambiguous, Complete, Verifiable, Consistent, Modifiable, Traceable."
+          ],
+          "formulas": [],
+          "is_preview": false
+        },
+        {
+          "page_number": 4,
+          "title": "Unit 3: Object-Oriented Modeling & UML Diagrams",
+          "subtitle": "Use Case, Class, Sequence and Activity Diagrams",
+          "content": "### 3.1 Unified Modeling Language (UML)\nUML is a standardized visual modeling language used in object-oriented software engineering.\n\n#### Structural vs Behavioral Diagrams:\n- **Structural Diagrams:** Class Diagram, Object Diagram, Component Diagram, Deployment Diagram.\n- **Behavioral Diagrams:** Use Case Diagram, Sequence Diagram, State Chart, Activity Diagram.\n\n### 3.2 Drawing Use Case Diagram (ATM / Online Exam System)\n- **Actors:** Stick figures representing external entities (Student, Administrator, Payment Gateway).\n- **Use Cases:** Ovals containing verbs (Login, View Marks, Pay Fees).\n- **Relationships:**\n  - **<<include>>:** Mandatory sub-process (e.g., Transfer Money includes Verify PIN).\n  - **<<extend>>:** Optional or conditional behavior (e.g., Withdraw Cash extends Print Receipt on error).",
+          "highlights": [
+            "MSBTE frequently asks to draw Use Case diagram for Library Management or Railway Reservation (6 Marks)."
+          ],
+          "formulas": [],
+          "is_preview": false
+        },
+        {
+          "page_number": 5,
+          "title": "Unit 4 & 5: Software Testing, Metrics & Quality Assurance",
+          "subtitle": "Black-box vs White-box, Cyclomatic Complexity & CMM Levels",
+          "content": "### 4.1 Black-Box vs White-Box Testing\n- **Black-Box Testing (Functional):** Tester has no knowledge of internal code logic. Techniques: Boundary Value Analysis (BVA), Equivalence Class Partitioning (ECP).\n- **White-Box Testing (Structural):** Tester inspects source code, paths, and logic conditions. Techniques: Basis Path Testing, Statement Coverage, Branch Coverage.\n\n### 4.2 Cyclomatic Complexity (McCabe Metric)\nMeasures the logical complexity of a program using its Control Flow Graph (CFG):\n$$V(G) = E - N + 2P$$\nWhere:\n- $E$ = Number of edges\n- $N$ = Number of nodes\n- $P$ = Number of connected components (usually 1)\n- Alternatively: $V(G) = P_r + 1$ (where $P_r$ is number of predicate / decision nodes).\n\n### 4.3 Capability Maturity Model (CMM) 5 Levels:\n1. **Level 1 - Initial:** Ad-hoc, chaotic processes.\n2. **Level 2 - Repeatable:** Basic project management established.\n3. **Level 3 - Defined:** Standardized company-wide processes.\n4. **Level 4 - Managed:** Detailed quantitative metrics and quality goals.\n5. **Level 5 - Optimizing:** Continuous process improvement.",
+          "highlights": [
+            "Solved Numerical for Cyclomatic Complexity guaranteed for 4 marks.",
+            "Verification vs Validation definitions."
+          ],
+          "formulas": [
+            "V(G) = E - N + 2P",
+            "V(G) = Number of enclosed regions + 1"
+          ],
+          "is_preview": false
+        }
+      ],
+      "created_at": "2026-09-04T08:37:04.631Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    },
+    {
+      "id": "mat_cn_pyq",
+      "title": "Computer Network (CN - 22515) 5 Years Question Papers & Solved Model Answers",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "subject_id": "sub_cn",
+      "subject_code": "22515",
+      "subject_name": "Computer Network",
+      "category_id": "cat_pyq",
+      "description": "Last 5 years solved MSBTE question papers with step-by-step OSI/TCP-IP explanations, IP subnetting numericals, and router configuration diagrams.",
+      "price": 15,
+      "discount_price": 15,
+      "total_pages": 72,
+      "file_size": "6.2 MB",
+      "is_featured": true,
+      "is_active": true,
+      "rating": 4.8,
+      "reviews_count": 112,
+      "download_count": 2190,
+      "preview_pages_count": 2,
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "MSBTE Previous 5-Years Solved Papers (2019-2024)",
+          "subtitle": "Subject: Computer Network (Subject Code: 22515)",
+          "content": "### Question 1: Compulsory Short Answer Questions (Attempt any 5 of 7 - 10 Marks)\n\n#### Q1(a) Differentiate between LAN, MAN and WAN. (2 Marks)\n- **LAN (Local Area Network):** Covers small geographic area (office, lab). High data rate (100 Mbps - 10 Gbps). Lowest transmission delay.\n- **MAN (Metropolitan Area Network):** Covers a city. Moderate data rate. Owned by consortium or telecom provider.\n- **WAN (Wide Area Network):** Spans across countries or continents (e.g., Internet). High transmission delay and lower data rate.\n\n#### Q1(b) List any four advantages of Fiber Optic Cable over Twisted Pair. (2 Marks)\n1. Immunity to electromagnetic interference (EMI) and radio frequency interference (RFI).\n2. Extremely high bandwidth and gigabit transmission capacity.\n3. Minimal signal attenuation over long distances.\n4. High security; virtually impossible to tap without detection.",
+          "highlights": [
+            "Q1 is purely theoretical; keep answers crisp and point-wise for maximum scoring."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 2,
+          "title": "OSI Reference Model vs TCP/IP Protocol Suite",
+          "subtitle": "Full 7-Layer Diagram and Detailed Protocol Mapping",
+          "content": "### Detailed Solution: Explain 7 Layers of OSI Model (MSBTE 6 Marks)\n\n1. **Physical Layer:** Transmits raw bits over physical transmission media. Defines voltage levels, pinouts, and cable specs.\n2. **Data Link Layer:** Provides node-to-node framing, physical MAC addressing, flow control, and error detection (CRC).\n3. **Network Layer:** Performs logical IP addressing, routing (OSPF, BGP), and packet forwarding.\n4. **Transport Layer:** End-to-end reliable communication, port addressing, segmentation, and flow control (TCP/UDP).\n5. **Session Layer:** Establishes, maintains, and synchronizes dialogues between applications.\n6. **Presentation Layer:** Data translation, encryption/decryption (SSL/TLS), and compression.\n7. **Application Layer:** User interface for network services (HTTP, DNS, SMTP, FTP).",
+          "highlights": [
+            "Always draw the OSI vs TCP/IP layer mapping table to secure full 6 marks."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 3,
+          "title": "IPv4 Subnetting & IP Addressing Solved Numericals",
+          "subtitle": "Subnet Masks, CIDR Notation & Host Calculation",
+          "content": "### Problem: Given IP Address 192.168.10.0/26. Calculate:\n1. Subnet Mask\n2. Number of Subnets\n3. Number of Usable Hosts per Subnet\n4. Network ID and Broadcast ID of 1st Subnet\n\n#### Step-by-Step Solution:\n- **Given Prefix:** /26 means 26 ones in binary: `11111111.11111111.11111111.11000000`\n- **1. Subnet Mask:** 255.255.255.192\n- **2. Subnet Bits borrowed:** 26 - 24 = 2 bits. Total subnets = $2^2 = 4$ subnets.\n- **3. Host Bits remaining:** 32 - 26 = 6 bits. Usable hosts = $2^6 - 2 = 64 - 2 = 62$ hosts.\n- **4. Subnet 1 Range:**\n  - Network ID: 192.168.10.0\n  - First Valid Host: 192.168.10.1\n  - Last Valid Host: 192.168.10.62\n  - Broadcast ID: 192.168.10.63",
+          "highlights": [
+            "Subnetting numericals are guaranteed in Section B of the MSBTE paper."
+          ],
+          "formulas": [
+            "Usable Hosts = 2^(32 - prefix) - 2",
+            "Subnets = 2^(borrowed_bits)"
+          ],
+          "is_preview": false
+        }
+      ],
+      "created_at": "2026-08-25T08:37:04.632Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    },
+    {
+      "id": "mat_bundle_co5",
+      "title": "Computer Engineering 5th Semester Complete All-in-One Bundle",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "subject_id": "sub_ste",
+      "subject_code": "ALL-CO5",
+      "subject_name": "All 5th Sem Subjects (STE, AJP, CN, OS, DM)",
+      "category_id": "cat_bundle",
+      "description": "The ultimate semester pass bundle! Contains comprehensive handwritten notes, solved question papers, model answers, and VIP predicted questions for all 5th Semester Computer Engineering subjects.",
+      "price": 120,
+      "discount_price": 49,
+      "total_pages": 280,
+      "file_size": "28.5 MB",
+      "is_featured": true,
+      "is_active": true,
+      "rating": 5,
+      "reviews_count": 320,
+      "download_count": 4890,
+      "preview_pages_count": 3,
+      "bundle_materials": [
+        "mat_ste_notes",
+        "mat_cn_pyq",
+        "mat_ajp_notes",
+        "mat_os_imp"
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "Unit 1: Introduction to Software Engineering & Process Models",
+          "subtitle": "MSBTE Course Code: 22517 (I-Scheme Syllabus)",
+          "content": "### 1.1 Definition & Importance of Software Engineering\nSoftware engineering is the systematic, disciplined, and quantifiable approach to the development, operation, and maintenance of software.\n\n#### Key Characteristics of Software:\n1. **Engineered, not manufactured:** Unlike physical goods, software does not wear out; it deteriorates due to frequent changes.\n2. **Custom-built:** Most software is built to order rather than assembled from pre-existing components.\n3. **Complexity:** Software systems often manage thousands of interdependent business logic flows.\n\n### 1.2 Classical Waterfall Model (MSBTE 4M & 6M Favorite Question)\nThe linear sequential life cycle model consists of consecutive, non-overlapping phases:\n- **Requirement Analysis & Specification (SRS)**\n- **System & Software Design**\n- **Implementation & Coding (Unit Testing)**\n- **Integration & System Testing**\n- **Deployment & Maintenance**\n\n*Advantage:* Simple to understand and implement. Ideal for small projects with frozen requirements.\n*Disadvantage:* High risk when requirements change mid-project. Working model seen only late.",
+          "highlights": [
+            "Waterfall vs Spiral Model comparison is asked in almost every winter exam.",
+            "Always draw the 5-box waterfall lifecycle flow chart for full marks."
+          ],
+          "formulas": [
+            "Effort = a * (KLOC)^b [COCOMO Basic Formula]"
+          ],
+          "is_preview": true
+        },
+        {
+          "page_number": 2,
+          "title": "Unit 1: Agile Methodology, Scrum & Spiral Model",
+          "subtitle": "Agile Manifesto & Sprint Cycle Mechanics",
+          "content": "### 1.3 The Spiral Model (Risk-Driven Approach)\nProposed by Barry Boehm, the Spiral Model combines the iterative nature of prototyping with the controlled aspects of the Waterfall model.\n\n#### The 4 Quadrants:\n1. **Quadrant I (Objective Setting):** Identify objectives, alternatives, and constraints.\n2. **Quadrant II (Risk Assessment & Reduction):** Analyze risks, build prototypes, and perform risk mitigation.\n3. **Quadrant III (Development & Validation):** Develop software product, review, and test.\n4. **Quadrant IV (Review & Planning):** Customer evaluation and planning for next spiral iteration.\n\n### 1.4 Agile Framework & Scrum\n- **Sprint:** Fixed time-box of 2 to 4 weeks producing a shippable increment.\n- **Product Backlog:** Prioritized list of functional features.\n- **Sprint Retrospective:** Team inspects its process and agrees on improvements.",
+          "highlights": [
+            "Differentiate between Waterfall & Agile (MSBTE Summer 2023, 6 marks).",
+            "Definition of Product Owner vs Scrum Master."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 1,
+          "title": "MSBTE Previous 5-Years Solved Papers (2019-2024)",
+          "subtitle": "Subject: Computer Network (Subject Code: 22515)",
+          "content": "### Question 1: Compulsory Short Answer Questions (Attempt any 5 of 7 - 10 Marks)\n\n#### Q1(a) Differentiate between LAN, MAN and WAN. (2 Marks)\n- **LAN (Local Area Network):** Covers small geographic area (office, lab). High data rate (100 Mbps - 10 Gbps). Lowest transmission delay.\n- **MAN (Metropolitan Area Network):** Covers a city. Moderate data rate. Owned by consortium or telecom provider.\n- **WAN (Wide Area Network):** Spans across countries or continents (e.g., Internet). High transmission delay and lower data rate.\n\n#### Q1(b) List any four advantages of Fiber Optic Cable over Twisted Pair. (2 Marks)\n1. Immunity to electromagnetic interference (EMI) and radio frequency interference (RFI).\n2. Extremely high bandwidth and gigabit transmission capacity.\n3. Minimal signal attenuation over long distances.\n4. High security; virtually impossible to tap without detection.",
+          "highlights": [
+            "Q1 is purely theoretical; keep answers crisp and point-wise for maximum scoring."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 2,
+          "title": "OSI Reference Model vs TCP/IP Protocol Suite",
+          "subtitle": "Full 7-Layer Diagram and Detailed Protocol Mapping",
+          "content": "### Detailed Solution: Explain 7 Layers of OSI Model (MSBTE 6 Marks)\n\n1. **Physical Layer:** Transmits raw bits over physical transmission media. Defines voltage levels, pinouts, and cable specs.\n2. **Data Link Layer:** Provides node-to-node framing, physical MAC addressing, flow control, and error detection (CRC).\n3. **Network Layer:** Performs logical IP addressing, routing (OSPF, BGP), and packet forwarding.\n4. **Transport Layer:** End-to-end reliable communication, port addressing, segmentation, and flow control (TCP/UDP).\n5. **Session Layer:** Establishes, maintains, and synchronizes dialogues between applications.\n6. **Presentation Layer:** Data translation, encryption/decryption (SSL/TLS), and compression.\n7. **Application Layer:** User interface for network services (HTTP, DNS, SMTP, FTP).",
+          "highlights": [
+            "Always draw the OSI vs TCP/IP layer mapping table to secure full 6 marks."
+          ],
+          "formulas": [],
+          "is_preview": true
+        },
+        {
+          "page_number": 5,
+          "title": "Advanced Java Programming (AJP 22516) - JDBC & Swing Architecture",
+          "subtitle": "Bundle Preview Page: Database connectivity code templates",
+          "content": "### JDBC Step-by-Step 5 Step Template (MSBTE 4 Marks Guaranteed)\n1. **Load JDBC Driver:** `Class.forName(\"com.mysql.cj.jdbc.Driver\");`\n2. **Establish Connection:** `Connection con = DriverManager.getConnection(\"jdbc:mysql://localhost:3306/msbte\", \"root\", \"pass\");`\n3. **Create Statement:** `Statement stmt = con.createStatement();`\n4. **Execute Query:** `ResultSet rs = stmt.executeQuery(\"SELECT * FROM students\");`\n5. **Close Connection:** `con.close();`",
+          "highlights": [
+            "Prepared Statement vs Callable Statement differences included in bundle full notes."
+          ],
+          "formulas": [],
+          "is_preview": true
+        }
+      ],
+      "created_at": "2026-09-19T08:37:04.632Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    },
+    {
+      "id": "mat_ajp_notes",
+      "title": "Advanced Java Programming (AJP - 22516) Unit Notes & Programs",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "subject_id": "sub_ajp",
+      "subject_code": "22516",
+      "subject_name": "Advanced Java Programming",
+      "category_id": "cat_notes",
+      "description": "Complete Java Swing, AWT hierarchy, Delegation Event Model, and Servlet-JSP web applications with fully tested code snippets for lab and theory.",
+      "price": 25,
+      "discount_price": 20,
+      "total_pages": 64,
+      "file_size": "5.1 MB",
+      "is_featured": false,
+      "is_active": true,
+      "rating": 4.8,
+      "reviews_count": 45,
+      "download_count": 981,
+      "preview_pages_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "Unit 1: Abstract Window Toolkit (AWT) & Swing Components",
+          "subtitle": "AWT Component Hierarchy & Event Delegation Model",
+          "content": "### 1.1 Component Hierarchy\n- **java.lang.Object** $\\rightarrow$ **java.awt.Component** $\\rightarrow$ **java.awt.Container** $\\rightarrow$ **java.awt.Window** $\\rightarrow$ **java.awt.Frame**\n- Swing components extend `javax.swing.JComponent` which inherit from `java.awt.Container`.\n\n### 1.2 AWT vs Swing (MSBTE Top Question)\n1. **Platform Independence:** AWT is heavyweight (uses OS native peers); Swing is lightweight (100% pure Java rendered).\n2. **Pluggable Look & Feel:** Swing supports multiple looks (Metal, Nimbus, Windows) on the fly; AWT cannot.\n3. **Components:** Swing provides advanced controls like `JTable`, `JTree`, `JTabbedPane`.",
+          "highlights": [
+            "Memorize Component hierarchy diagram."
+          ],
+          "formulas": [],
+          "is_preview": true
+        }
+      ],
+      "created_at": "2026-09-09T08:37:04.632Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    },
+    {
+      "id": "mat_os_imp",
+      "title": "Operating System (OS - 22516) VIP Predicted Questions 2025",
+      "branch_id": "b_co",
+      "year": "3rd Year",
+      "semester": 5,
+      "subject_id": "sub_os",
+      "subject_code": "22516",
+      "subject_name": "Operating System",
+      "category_id": "cat_imp",
+      "description": "Hand-curated top 30 questions with MSBTE model answer points. Covers Banker Algorithm, FCFS/SJF/Round Robin scheduling and Paging algorithms.",
+      "price": 20,
+      "discount_price": 15,
+      "total_pages": 42,
+      "file_size": "3.6 MB",
+      "is_featured": false,
+      "is_active": true,
+      "rating": 4.9,
+      "reviews_count": 67,
+      "download_count": 1100,
+      "preview_pages_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "High Probability MSBTE Questions - Unit 2 Process Scheduling",
+          "subtitle": "Deadlock Necessary Conditions & Banker's Algorithm",
+          "content": "### Question: State and explain 4 Coffman conditions for Deadlock occurrence. (4 Marks)\n1. **Mutual Exclusion:** At least one resource must be held in a non-shareable mode.\n2. **Hold and Wait:** A process must be holding at least one resource and requesting additional resources held by other processes.\n3. **No Preemption:** Resources cannot be forcibly preempted; released only voluntarily by holding process.\n4. **Circular Wait:** A set of processes ${P_0, P_1, \\dots, P_n}$ such that $P_0$ waits for resource held by $P_1$, and $P_n$ waits for $P_0$.",
+          "highlights": [
+            "Banker algorithm numerical with Need Matrix is asked every winter exam."
+          ],
+          "formulas": [
+            "Need[i][j] = Max[i][j] - Allocation[i][j]"
+          ],
+          "is_preview": true
+        }
+      ],
+      "created_at": "2026-09-14T08:37:04.632Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    },
+    {
+      "id": "mat_ce_tos_model",
+      "title": "Theory of Structures (TOS - 22401) Solved Model Answers",
+      "branch_id": "b_ce",
+      "year": "2nd Year",
+      "semester": 4,
+      "subject_id": "sub_tos",
+      "subject_code": "22401",
+      "subject_name": "Theory of Structures",
+      "category_id": "cat_model",
+      "description": "Step-by-step MSBTE marking scheme model answers for moment distribution, continuous beams, and slope deflection equations.",
+      "price": 25,
+      "discount_price": 20,
+      "total_pages": 52,
+      "file_size": "4.4 MB",
+      "is_featured": false,
+      "is_active": true,
+      "rating": 4.7,
+      "reviews_count": 38,
+      "download_count": 730,
+      "preview_pages_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "title": "Fixed Beams & Moment Area Theorems",
+          "subtitle": "Civil Engineering 4th Semester Solution Guide",
+          "content": "### Fixed End Moments for Standard Loadings\n1. **Central Point Load ($W$):** $M_A = M_B = -\\frac{WL}{8}$\n2. **Uniformly Distributed Load ($w$ over entire span $L$):** $M_A = M_B = -\\frac{wL^2}{12}$\n3. **Eccentric Point Load at distance $a$ and $b$:** $M_A = -\\frac{W a b^2}{L^2}$, $M_B = -\\frac{W a^2 b}{L^2}$",
+          "highlights": [
+            "Check signs for hogging vs sagging bending moments."
+          ],
+          "formulas": [
+            "M_A = -wL^2 / 12"
+          ],
+          "is_preview": true
+        }
+      ],
+      "created_at": "2026-09-24T08:37:04.632Z",
+      "updated_at": "2026-10-04T08:37:04.632Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1791103039072",
+      "order_number": "DR-2026-7771",
+      "user_id": "usr_student1",
+      "user_name": "Rohan Deshmukh",
+      "user_email": "student@diplomarankers.com",
+      "total_amount": 20,
+      "discount_amount": 10,
+      "final_amount": 10,
+      "coupon_code": "EXAM10",
+      "payment_gateway": "razorpay",
+      "razorpay_order_id": "order_DR20267771_231406",
+      "status": "paid",
+      "items": [
+        {
+          "id": "item_1791103039072_9avu",
+          "material_id": "mat_ajp_notes",
+          "item_title": "Advanced Java Programming (AJP - 22516) Unit Notes & Programs",
+          "price": 20
+        }
+      ],
+      "created_at": "2026-10-04T08:37:19.072Z",
+      "razorpay_payment_id": "pay_sim_1791103039072",
+      "razorpay_signature": "a91542ac7136cfb1357925c4eb62c297c47c47fa3d0031e961841a9d189203dc"
+    },
+    {
+      "id": "ord_demo_101",
+      "order_number": "DR-2025-9102",
+      "user_id": "usr_student1",
+      "user_name": "Rohan Deshmukh",
+      "user_email": "student@diplomarankers.com",
+      "total_amount": 20,
+      "discount_amount": 0,
+      "final_amount": 20,
+      "payment_gateway": "razorpay",
+      "razorpay_order_id": "order_test_98129",
+      "razorpay_payment_id": "pay_test_98129_succ",
+      "status": "paid",
+      "items": [
+        {
+          "id": "item_101",
+          "order_id": "ord_demo_101",
+          "material_id": "mat_ste_notes",
+          "item_title": "Software Engineering (STE - 22517) Complete Notes",
+          "price": 20
+        }
+      ],
+      "created_at": "2026-10-01T08:37:04.632Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "pur_demo_1",
+      "user_id": "usr_student1",
+      "material_id": "mat_ste_notes",
+      "order_id": "ord_demo_101",
+      "purchased_at": "2026-10-01T08:37:04.632Z",
+      "access_revoked": false
+    },
+    {
+      "id": "pur_1791103039083_stiz",
+      "user_id": "usr_student1",
+      "material_id": "mat_ajp_notes",
+      "order_id": "ord_1791103039072",
+      "purchased_at": "2026-10-04T08:37:19.083Z",
+      "access_revoked": false
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cp_ranker20",
+      "code": "RANKER20",
+      "discount_percent": 20,
+      "min_order_value": 30,
+      "expiry_date": "2027-12-31",
+      "usage_limit": 1000,
+      "usage_count": 142,
+      "is_active": true
+    },
+    {
+      "id": "cp_exam10",
+      "code": "EXAM10",
+      "discount_fixed": 10,
+      "min_order_value": 20,
+      "expiry_date": "2027-12-31",
+      "usage_limit": 500,
+      "usage_count": 89,
+      "is_active": true
+    },
+    {
+      "id": "cp_first50",
+      "code": "FIRST50",
+      "discount_percent": 50,
+      "min_order_value": 40,
+      "expiry_date": "2027-12-31",
+      "usage_limit": 200,
+      "usage_count": 53,
+      "is_active": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "MSBTE Winter Examination Timetable Released",
+      "message": "Official diploma theory exam timetable has been released by MSBTE Board. Check your subject codes and start your revisions.",
+      "type": "exam_alert",
+      "created_at": "2026-10-02T08:37:04.632Z",
+      "is_active": true
+    },
+    {
+      "id": "notif_2",
+      "title": "5th Semester Computer Engineering VIP Bundle Updated",
+      "message": "Added Winter 2024 solved model answers and predicted question papers for Software Engineering and Advanced Java.",
+      "type": "new_material",
+      "link": "/materials/mat_bundle_co5",
+      "created_at": "2026-09-29T08:37:04.632Z",
+      "is_active": true
+    },
+    {
+      "id": "notif_3",
+      "title": "Limited Period Exam Offer: Use Code RANKER20",
+      "message": "Get flat 20% instant discount on all notes and question paper sets using coupon RANKER20 during checkout.",
+      "type": "discount",
+      "created_at": "2026-09-27T08:37:04.632Z",
+      "is_active": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "material_id": "mat_ste_notes",
+      "user_id": "usr_student1",
+      "user_name": "Rohan Deshmukh",
+      "user_branch": "Computer Engineering (5th Sem)",
+      "rating": 5,
+      "comment": "Scored 64/70 in Software Engineering theory exam! The UML diagrams and Waterfall vs Agile tables were 100% matched with MSBTE board paper.",
+      "created_at": "2026-10-02T08:37:04.632Z"
+    },
+    {
+      "id": "rev_2",
+      "material_id": "mat_bundle_co5",
+      "user_id": "usr_mock2",
+      "user_name": "Pooja Kulkarni",
+      "user_branch": "Government Polytechnic Pune",
+      "rating": 5,
+      "comment": "Saved my semester! The bundle gave notes for all 5 subjects at just ₹49. The watermarked PDF viewer works buttery smooth on mobile.",
+      "created_at": "2026-09-30T08:37:04.632Z"
+    },
+    {
+      "id": "rev_3",
+      "material_id": "mat_cn_pyq",
+      "user_id": "usr_mock3",
+      "user_name": "Aditya Patil",
+      "user_branch": "VJTI Mumbai (Diploma)",
+      "rating": 5,
+      "comment": "Subnetting numericals were explained so simply. Worth every rupee.",
+      "created_at": "2026-09-28T08:37:04.632Z"
+    }
+  ]
+}
